@@ -1,0 +1,276 @@
+.html{
+    line-height: 0.7333333333;
+}
+.body{
+    line-height: 0.7333333333;
+}
+.start{
+    vertical-align: middle;
+}
+.hat{
+    display: flex;
+}
+.foursquare{
+    height: 2%;
+    width: 2%;
+    margin-left: 10%;
+    margin-top: 1.8%;
+}
+.Strict{
+    font-family: Lato;
+    color: rgb(45, 57, 80);
+    margin-left: 1%;
+}
+.banner{
+    background-image: url(../img/BAN.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+.caption{
+    padding-top: 12%;
+    color: white;
+    font-size: 100px;
+    font-family: Lato;
+    margin:1%;
+}
+.line{
+    border: none;
+    height: 2px;
+    width: 35%;
+    color: rgb(21, 164, 250);
+    background-color: rgb(21, 164, 250);
+}
+.responsive{
+    color:white;
+    font-family: Lato;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.Call{
+    background: none;
+    padding:1% 2%;
+    border: 1px solid rgb(21, 164, 250);
+    color: white;
+    font-family:Lato;
+    font-size: 20px; 
+    border-radius: 5px; 
+    text-decoration: none;
+}
+.arrow{
+    display: block;
+    margin-top: 13%;
+    padding-bottom:5% ;
+}
+i { 
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+  }
+.Simple_pure_design{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.pure_design{
+    font-size: 30px;
+    font-weight: normal;
+    font-family: Lato;
+    text-align: center;
+    color: rgb(45,57, 80);
+}
+.designers{
+    font-family: Lato;
+    text-align: center;
+    color: rgb(159, 159, 159);
+    font-size: 20px;
+}
+.proposition{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.box{
+    min-width: 200px;
+    flex-basis: 30%;
+}.box_foto{
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+}
+.box_caption{
+    font-family: Lato;
+    color: rgb(45,57, 80);
+    font-size: 30px;
+}
+.box_text{
+    font-family: Lato;
+    color: rgb(159, 159, 159);
+    font-size: 20px;
+}
+.my_work{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.Showcase{
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    color: rgb(45,57, 80);
+}
+.contact{
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    color: rgb(159, 159, 159);
+}
+.Fotowork{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.foto{
+    margin: 1%;
+}
+.stay{
+    background-image: url(../img/BG.png);
+}
+.with_us{
+    font-weight: normal;
+    text-align: center;
+    font-family: Lato;
+    font-size: 50px;
+    color: white;
+    padding-top: 5%;
+    margin-bottom: 0;
+}
+.quaility{
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    color: rgb(159, 159, 159);
+    padding-bottom: 40px;
+}
+/*form*/
+.form{
+    width: 34%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5%;
+}
+.block_username{
+    text-align: left;
+}
+.username{
+    padding: 4% 70% 4% 1%;
+    background: none;
+    font-family: Lato;
+    border: solid 1px rgb(159, 159, 159);
+    border-radius: 3px;
+    outline: none;
+}
+.block_email{
+    text-align: left;
+}
+.email_address{
+    padding: 4% 70% 4% 1%;
+    background: none;
+    font-family: Lato;
+    border: solid 1px rgb(159, 159, 159);
+    border-radius: 3px;
+    outline: none;
+}
+.block_message{
+    text-align: left;
+}
+.message{
+    height: 150px;
+    padding: 4% 68% 4% 1%;
+    background: none;
+    border: solid 1px rgb(159, 159, 159);
+    border-radius: 3px;
+    outline: none;
+    resize: none;
+    padding-top:15px;
+    padding-left: 10px;
+}
+/*checkbox*/ 
+.checkbox_button{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+ .custom-checkbox {
+     position: absolute;
+    z-index: -1;
+    opacity: 0;
+}    
+.custom-checkbox+label {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+}
+.custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-color: rgb(159,159,159);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+.custom-checkbox:checked+label::before {
+    border-color: #0b76ef;
+    background-color: #0b76ef;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+.letter{
+    font-family: Lato;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 15%;
+}
+/**/
+.button_form{
+    margin-left:10%;
+    padding: 15px 50px;
+    background: none;
+    font-family: Lato;
+    border: solid 1px rgb(21, 164, 250);
+    border-radius: 3px;
+    color: white;
+    outline: none;
+}
+/*footer*/
+.my_footer{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-top: 1%;
+}
+.Copyritht{
+    color: rgb(159,159,159);
+    font-size: 16px;
+    font-family: Lato;
+}
+
+
+
+
+
+
